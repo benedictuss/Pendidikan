@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsixml"/>
+    <xs:element name="akademik">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="dataguru"/>
+            </xs:sequence>
+            <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="dataguru">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="NIK"/>
+                <xs:element ref="buku"/>
+                <xs:element ref="kode" minOccurs="1"/>
+                <xs:element ref="hp"/>
+                <xs:element ref="jkelamin"/>
+                <xs:element ref="alamat"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama">
+        <xs:complexType mixed="true">
+            <xs:attribute name="matapelajaran" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="NIK" type="xs:integer"/>
+    <xs:element name="buku">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:decimal">
+    			<xs:minExclusive value="75000"></xs:minExclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="kode">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="buku" use="required" type="xs:NCName"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hp">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:integer">
+                    <xs:attribute name="code" use="required" type="xs:integer"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="jkelamin" type="xs:NCName"/>
+    <xs:element name="alamat" type="xs:NCName"/>
+</xs:schema>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akademik>
+<dataguru>
+	<nama matapelajaran="Matematika">Tomy Prawoto.S.pd</nama>
+	<NIK>1154121</NIK>
+	<buku>80000</buku>
+	<kode buku="x">223</kode>
+	<hp code="+62">82277889798</hp>
+	<jkelamin>Laki-Laki</jkelamin>
+	<alamat>Balige</alamat>
+</dataguru>
+<dataguru>
+	<nama matapelajaran="B.Inggris">Larasati.S.pd</nama>
+	<NIK>1154113</NIK>
+	<buku>87000</buku>
+	<kode buku="a">227</kode>
+	<hp code="+62">82276609812</hp>
+	<jkelamin>Perempuan</jkelamin>
+	<alamat>Hutadalan</alamat>
+</dataguru>
+<dataguru>
+	<nama matapelajaran="PKN">Doli Jhonfeter.S.pd</nama>
+	<NIK>1154119</NIK>
+	<buku>85000</buku>
+	<kode buku="k">229</kode>
+	<hp code="+62">822766541546</hp>
+	<jkelamin>Laki-Laki</jkelamin>
+	<alamat>Sidikalang</alamat>
+</dataguru>
+<dataguru>
+	<nama matapelajaran="PENJASKES">Rifa Fauzi.S.pd</nama>
+	<NIK>1154119</NIK>
+	<buku>85000</buku>
+	<kode buku="p">293</kode>
+	<hp code="+62">8227806138</hp>
+	<jkelamin>Laki-Laki</jkelamin>
+	<alamat>Tasikmalaya</alamat>
+</dataguru>
+<dataguru>
+	<nama matapelajaran="Fisika">Hanna Theresia.S.pd</nama>
+	<NIK>1154136</NIK>
+	<buku>76000</buku>
+	<kode buku="u">123</kode>
+	<hp code="+62">82276609813</hp>
+	<jkelamin>Perempuan</jkelamin>
+	<alamat>Siborong-borong</alamat>
+</dataguru>
+<dataguru>
+	<nama matapelajaran="B.Indonesia">Ita Meianti.S.pd</nama>
+	<NIK>1154113</NIK>
+	<buku>80000</buku>
+	<kode buku="o">273</kode>
+	<hp code="+62">82276609812</hp>
+	<jkelamin>Perempuan</jkelamin>
+	<alamat>Tangerang</alamat>
+</dataguru>
+</akademik>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akademik noNamespaceSchemaLocation="http://tempuri.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="akademik.xsd">
+  <dataguru>
+    <nama matapelajaran="NCName"/>
+    <NIK>0</NIK>
+    <buku>0.0</buku>
+    <kode buku="NCName">0</kode>
+    <hp code="0">0</hp>
+    <jkelamin>NCName</jkelamin>
+    <alamat>NCName</alamat>
+  </dataguru>
+</akademik>
